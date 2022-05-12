@@ -1,0 +1,94 @@
+/* all */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.75em;
+  color: #666;
+}
+:root {
+  --main-color: #ff206e;
+}
+.text-mine {
+  color: var(--main-color);
+}
+.bg-mine {
+  background-color: var(--main-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #282828;
+  font-weight: 600;
+}
+
+/* ************************************************************************ */
+/* about */
+.tittle-center h2 {
+  font-size: 80px;
+  color: #f1f1f1;
+  font-weight: 900;
+}
+.tittle-center h3 {
+  font-size: 40px;
+  font-weight: 900;
+  top: 50%;
+}
+.brdr {
+  height: 0.6px;
+  width: 40px;
+  margin: 5px auto;
+  top: 100%;
+  transition: all 0.5s;
+}
+.title-parag {
+  width: 59%;
+}
+.tittle:hover .brdr {
+  width: 60px;
+}
+/* skiils rightside */
+.progress {
+  height: 4px;
+}
+.progress-bar {
+  height: 100% !important;
+  border-radius: 0 2px 2px 0;
+}
+
+.skills-content p {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  /* font-weight: 600; */
+}
+.skills-content .skills-content1 {
+  text-align: right;
+  font-weight: 500;
+  width: 69%;
+}
+.skills-content .skills-content2 {
+  text-align: right;
+  font-weight: 500;
+  width: 80%;
+}
+.skills-content .skills-content3 {
+  text-align: right;
+  font-weight: 500;
+  width: 66%;
+}
+.skills-content .skills-content4 {
+  text-align: right;
+  font-weight: 500;
+  width: 54%;
+}
+

@@ -1,0 +1,98 @@
+@import "./all.min.css";
+@import "./bootstrap.min.css";
+@import "./newStyles/defaultStyle.css";
+
+/*carosul*/
+.reviews .carousel-indicators {
+  position: static;
+}
+.reviews .carousel-indicators .custom-indicator {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  text-indent: initial;
+  flex-direction: column;
+}
+.reviews .carousel-indicators .custom-indicator .caption-text {
+  display: none;
+}
+.reviews .carousel-indicators .custom-indicator.active .caption-text {
+  display: block;
+}
+.reviews .carousel-inner .carousel-item {
+  color: black;
+  font-size: 30px;
+  line-height: initial;
+}
+.reviews .carousel-indicators .custom-indicator .slide-img {
+  border-radius: 50%;
+}
+
+/*header*/
+.header {
+  margin-bottom: 57px;
+}
+
+/*page icons*/
+.page-icons .setting-icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(50, 49, 49);
+  left: 0;
+  top: 20%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 1111;
+}
+
+/*header nav*/
+.nav__icons {
+  display: flex;
+  gap: 1em;
+  margin-left: 0.5em;
+  font-size: 1em;
+  color: black;
+}
+.nav__icons .nav__icons__icon {
+  color: inherit;
+}
+.nav__icons .nav__icons__icon:hover {
+  color: red;
+}
+
+/*banner section controls*/
+.banner-section__navs {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -1px;
+}
+.banner-section__navs .carousel-control-prev,
+.banner-section__navs .carousel-control-next {
+  position: static;
+  width: auto;
+  padding: 10px;
+  border: 1px solid white;
+  background-image: linear-gradient(
+    to right,
+    white 0 50%,
+    transparent 50% 100%
+  );
+  background-size: 200%;
+  background-position: 100% 0;
+  transition: all 0.3s linear;
+}
+/* .banner-section__navs .carousel-control-prev:hover,
+.banner-section__navs .carousel-control-next:hover {
+  background-position: 0 0;
+} */
+.banner-section__navs .carousel-control-next-icon,
+.banner-section__navs .carousel-control-prev-icon {
+  width: 24px;
+  height: 24px;
+}
