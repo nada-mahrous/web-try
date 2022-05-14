@@ -206,3 +206,15 @@ team-details
     font-size: 18px;
     color: #999;
 }
+.section3
+{
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.section3 .icon
+{
+  border: 8px solid #0078ff;
+  width: 6rem ;
+  height: 6rem;
+}
