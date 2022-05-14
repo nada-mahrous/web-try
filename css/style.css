@@ -20,6 +20,72 @@ body {
 .bg-mine {
   background-color: var(--main-color);
 }
+/*  header */
+.navbar{
+  top: 0%;
+  position: fixed;
+  z-index: 999999;
+  background-color: rgba(0,0, 0, 0.3);
+}
+.nav-link a{
+    padding-right: 20px;
+    font-size: 18px;
+}
+.home{
+    position:relative;
+
+}
+.layer{
+    position: absolute;
+  top: 0%;
+  left: 0%;
+    height: 100vh;
+    background-color: rgba(0,0, 0, 0.3);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.setting{
+    background-color: #1f2528;
+    width: 40px;
+    height: 40px;
+    top: 30%;
+    left: 0%;
+    position: fixed;
+}
+.mouse{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.arrow1{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 0%;
+    position: absolute;
+    border: #fff 1px solid;
+}
+.arrow2{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    bottom: 50%;
+    left: 0%;
+    position: absolute;
+    border: #fff 1px solid;
+}
+
+/* End of header */
+
+
 h1,
 h2,
 h3,
